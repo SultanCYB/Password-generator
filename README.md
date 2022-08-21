@@ -16,7 +16,6 @@ if False given; it will exclude digits from the password
 
 if False given; it will exclude symbols from the password
 
--------------------------------------------
 ## Examples
     >>> from pwd_generator import pwd_generator
     
