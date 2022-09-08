@@ -37,3 +37,5 @@ if False given; it will exclude symbols from the password
     
     >>> pwd_generator(8, False, False)
     PCdKjbdG
+
+### For a complete random password, just call the function without passing any arugments
