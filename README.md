@@ -1,18 +1,18 @@
 # pwd_generator
 ### random python password generator
 ## Usage
-### This function has 3 optional parameters :
+### This function has 3 optional parameters explained respectively:
 
-- length : 
+- length (1): 
 
 length of the password must be at least 8 characters, there is no max range,
 if no length given; the function will choose a random length between 8 and 40
 
-- num : 
+- num (2): 
 
 if False given; it will exclude digits from the password
 
-- symbol : 
+- symbol (3): 
 
 if False given; it will exclude symbols from the password
 
