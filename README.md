@@ -1,4 +1,4 @@
-# pwd_generator
+# pwd generator
 ### random python password generator
 ## Usage
 ### This function has 3 optional parameters explained respectively:
