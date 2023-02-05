@@ -23,12 +23,12 @@ def pwd_generator(length='', num=True, symbol=True):
     password = ""
 
     if num:
-        # if num parameter was left default it will be used in the password generator
+        # if you didnt pass a value ( True or False) to num paramter, then it will be used a default
         num = list("0123456789")
         choices.append(num)
 
     if symbol:
-        # if symbol parameter was left default it will be used in the password generator
+        # if you didnt pass a value ( True or False) to symbol paramter, then it will be used a default
         symbol = list(punctuation)
         choices.append(symbol)
 
@@ -37,7 +37,7 @@ def pwd_generator(length='', num=True, symbol=True):
         symbol = []  # this was declared to prevent errors
 
     if not length:
-        # if no length given it will give a random length
+        # if no length given it will give a random length between 8-40
 
         length = [i for i in range(8, 41)]
 
@@ -60,7 +60,7 @@ def pwd_generator(length='', num=True, symbol=True):
             # this will prevent duplicate character
             if check.lower() != last_char:
 
-                # this will prevent two symbols after each other
+                # this will prevent two symbols being after each other respectively
                 if check not in symbol or last_char not in symbol:
 
                     password += check
