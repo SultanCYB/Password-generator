@@ -5,7 +5,7 @@ from string import punctuation
 import random
 
 
-def pwd_generator(length='', num=True, symbol=True):
+def pwd_generator(length=0, num=True, symbol=True):
     '''This function has 3 optional parameters :
 
 	- length : length of the password must be at least 8 characters, there is no max range,
@@ -39,9 +39,8 @@ def pwd_generator(length='', num=True, symbol=True):
     if not length:
         # if no length given it will give a random length between 8-40
 
-        length = [i for i in range(8, 41)]
 
-        length = random.choice(length)
+        length = random.choice(range(8,41))
 
     elif length < 8:
         return "Length must be at least 8"
