@@ -3,15 +3,15 @@
 ## Usage
 ### This function has 3 optional parameters explained respectively:
 
-- length (1): 
+- length (1) [ default will be randomly in range 8-41] :
 
 length of the password, there is no max range. If no length given; the function will choose a random length between 8 and 40
 
-- num (2): 
+- num (2) [ default is True ] :
 
 if False given; it will exclude digits from the password
 
-- symbol (3): 
+- symbol (3) [ default is True ] :
 
 if False given; it will exclude symbols from the password
 
