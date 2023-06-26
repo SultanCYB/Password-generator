@@ -3,17 +3,17 @@
 ## Usage
 ### This function has 3 optional parameters explained respectively:
 
-- length (1) [ default will be randomly in range 8-41] :
+- ### length (1) [ default will be randomly in range 8-41] :
 
-length of the password, there is no max range. If no length given; the function will choose a random length between 8 and 40
+> length of the password. It has no max range. If no length given; the function will choose a random length between 8 and 40
 
-- num (2) [ default is True ] :
+- ### num (2) [ default is True ] :
 
-if False given; it will exclude digits from the password
+> Include numbers. If False given; it will exclude the digits from the password
 
-- symbol (3) [ default is True ] :
+- ### symbol (3) [ default is True ] :
 
-if False given; it will exclude symbols from the password
+> Include symbols. If False given; it will exclude symbols from the password
 
 ## Examples
     >>> from pwd_generator import pwd_generator
