@@ -41,7 +41,7 @@ def pwd_generator(length=0, num=True, symbol=True):
     
     while len(password) != length:
 
-        check = random.choice(random.choice(choices))
+        password += random.choice(random.choice(choices))
 
         
     return password
